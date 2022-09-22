@@ -11,21 +11,40 @@
 <body>
     <h1>Order Here!!</h1>
     <form>
-        <input type="text" name="email" placeholder="Write your e-mail">
-        
+        <input type="name" id="name" placeholder="write your name" required><br>
+        <input type="email" id="email" placeholder="Write your e-mail" required><br>
     </form>
     <header>
         <img src="https://img.grouponcdn.com/deal/mfnZ8z7Rf9ZiLHX5HjCC/xe-700x420/v1/c700x420.jpg" alt="town_hall_logo" height="175">
         <h2>Come on in, I've got...</h2>
     </header>
-    <Main>
-        <h3>The shakes that'll make you quake:</h3>
-        <p>Small:  Medium:  Large: </p>
-        <li>Vanilla</li>
-        <li>Chocolate</li>
-        <Li>Strawberry</Li>
-        <li>Oreo</li>
-
-    </Main>
+    <h3>The shakes that'll make you quake:</h3>
+    small: <input type="radio" name="size" value="small">
+    medium: <input type="radio" name="size" value="medium">
+    large: <input type="radio" name="size" value="large">
+    <main>
+        Flavor:<br>
+        <select id="flavor" size="4" multiple>
+            <option value="vanilla">vanilla</option>
+            <option value="chocolate">chocolate</option>
+            <option value="strawberry">strawberry</option>
+            <option value="oreo">oreo</option>
+        </select>
+    </main>
+    <h3>The Fries that'll cross yo eyes</h3>
+    small: <input type="radio" name="size" value="small">
+    medium: <input type="radio" name="size" value="medium">
+    large: <input type="radio" name="size" value="large">
+    <main>
+        Type:<br>
+        <select id="flavor" size="4" multiple>
+            <option value="french fries">french fries</option>
+            <option value="curly fries">curly fries</option>
+            <option value="waffle fires">waffle fries</option>
+            <option value="buffalo fries">buffalo fries</option>
+        </select>
+    </main>
+    <h3>The burgers th... thats it I just got the burgers:</h3>
+    
 </body>
 </html>
